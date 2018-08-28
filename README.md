@@ -6,5 +6,5 @@ Please cite the paper and this github code repository when you use the codes fro
 Thank you.
 
 Please contact us for collaboration or if you have any questions.
-Hassan Afzali-Kusha (Email: afzaliku@usc.edu), Mohammad Ansari, Behzad Ebrahimi
+Hassan Afzali-Kusha (Email: afzaliku@usc.edu), Mohammad Ansari(Email: ansarimohammad2005@yahoo.com), Behzad Ebrahimi(Email: Behzad Ebrahimi <bebrahimi2007@gmail.com>)
 
