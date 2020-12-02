@@ -1,0 +1,140 @@
+.LIB ptm7hp
+.lib 'param.inc' 7nm
+.subckt nfet_hp d g s x l=lg nfin=1
+.include 'modelfiles\hp\7nfet.pm'
+mnfet d g s x nfet L=l NFIN=nfin
+.ends nfet
+
+.subckt pfet_hp d g s x l=lg nfin=1
+.include 'modelfiles\hp\7pfet.pm'
+mpfet d g s x pfet L=l NFIN=nfin
+.ends pfet
+.endl ptm7hp
+*=====================================================================
+.LIB ptm7lstp
+.lib 'param.inc' 7nm
+.subckt nfet_lstp d g s x l=lg nfin=1
+.include 'modelfiles\lstp\7nfet.pm'
+mnfet d g s x nfet L=l NFIN=nfin
+.ends nfet
+
+.subckt pfet_lstp d g s x l=lg nfin=1
+.include 'modelfiles\lstp\7pfet.pm'
+mpfet d g s x pfet L=l NFIN=nfin
+.ends pfet
+.endl ptm7lstp
+*=====================================================================
+
+
+.LIB ptm10hp
+.lib 'param.inc' 10nm
+.subckt nfet_hp d g s x l=lg nfin=1
+.include 'modelfiles\hp\10nfet.pm'
+mnfet d g s x nfet L=l NFIN=nfin
+.ends nfet
+
+.subckt pfet_hp d g s x l=lg nfin=1
+.include 'modelfiles\hp\10pfet.pm'
+mpfet d g s x pfet L=l NFIN=nfin
+.ends pfet
+.endl ptm10hp
+*=====================================================================
+.LIB ptm10lstp
+.lib 'param.inc' 10nm
+.subckt nfet_lstp d g s x l=lg nfin=1
+.include '\modelfiles\lstp\10nfet.pm'
+mnfet d g s x nfet L=l NFIN=nfin
+.ends nfet
+
+.subckt pfet_lstp d g s x l=lg nfin=1
+.include 'modelfiles\lstp\10pfet.pm'
+mpfet d g s x pfet L=l NFIN=nfin
+.ends pfet
+.endl ptm10lstp
+*=====================================================================
+*=====================================================================
+.LIB ptm14hp
+.lib 'param.inc' 14nm
+.subckt nfet_hp d g s x l=lg nfin=1
+.include 'modelfiles\hp\14nfet.pm'
+mnfet d g s x nfet L=l NFIN=nfin
+.ends nfet
+
+.subckt pfet_hp d g s x l=lg nfin=1
+.include 'modelfiles\hp\14pfet.pm'
+mpfet d g s x pfet L=l NFIN=nfin
+.ends pfet
+.endl ptm14hp
+*=====================================================================
+.LIB ptm14lstp
+.lib 'param.inc' 14nm
+.subckt nfet_lstp d g s x l=lg nfin=1
+.include 'modelfiles\lstp\14nfet.pm'
+mnfet d g s x nfet L=l NFIN=nfin
+.ends nfet
+
+.subckt pfet_lstp d g s x l=lg nfin=1
+.include 'modelfiles\lstp\14pfet.pm'
+mpfet d g s x pfet L=l NFIN=nfin
+.ends pfet
+.endl ptm14lstp
+*=====================================================================
+*=====================================================================
+
+
+.LIB ptm16hp
+.lib 'param.inc' 16nm
+.subckt nfet_hp d g s x l=lg nfin=1
+.include 'modelfiles\hp\16nfet.pm'
+mnfet d g s x nfet L=l NFIN=nfin
+.ends nfet
+
+.subckt pfet_hp d g s x l=lg nfin=1
+.include 'modelfiles\hp\16pfet.pm'
+mpfet d g s x pfet L=l NFIN=nfin
+.ends pfet
+.endl ptm16hp
+*=====================================================================
+.LIB ptm16lstp
+.lib 'param.inc' 16nm
+.subckt nfet_lstp d g s x l=lg nfin=1
+.include 'modelfiles\lstp\16nfet.pm'
+mnfet d g s x nfet L=l NFIN=nfin
+.ends nfet
+
+.subckt pfet_lstp d g s x l=lg nfin=1
+.include 'modelfiles\lstp\16pfet.pm'
+mpfet d g s x pfet L=l NFIN=nfin
+.ends pfet
+.endl ptm16lstp
+*=====================================================================
+
+*=====================================================================
+
+
+.LIB ptm20hp
+.lib 'param.inc' 20nm
+.subckt nfet_hp d g s x l=lg nfin=1
+.include 'modelfiles\hp\20nfet.pm'
+mnfet d g s x nfet L=l NFIN=nfin
+.ends nfet
+
+.subckt pfet_hp d g s x l=lg nfin=1
+.include 'modelfiles\hp\20pfet.pm'
+mpfet d g s x pfet L=l NFIN=nfin
+.ends pfet
+.endl ptm20hp
+*=====================================================================
+.LIB ptm20lstp
+.lib 'param.inc' 20nm
+.subckt nfet_lstp d g s x l=lg nfin=1
+.include 'modelfiles\lstp\20nfet.pm'
+mnfet d g s x nfet L=l NFIN=nfin
+.ends nfet
+
+.subckt pfet_lstp d g s x l=lg nfin=1
+.include 'modelfiles\lstp\20pfet.pm'
+mpfet d g s x pfet L=l NFIN=nfin
+.ends pfet
+.endl ptm20lstp
+*=====================================================================
