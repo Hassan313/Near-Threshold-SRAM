@@ -4,6 +4,8 @@ These file are the files that have been used for the
 
 One of the important piece of code that has been uploaded here is the code for calculating the Hold Static Noise Margin (HSNM) and Read Static Noise margin (RSNM). 
 
+The other important piece of code is the code for process variation.
+
 Please cite the paper and this github code repository when you use these codes from here.
 
 Thank you.
